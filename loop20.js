@@ -30,9 +30,13 @@ while(i<n)
           {
             i++;
           }
-}  if(i==n)
+} 
+    while(i>0)
 {
-    s=s+("*****");
-    console.log(s);
+  s+=("*")
+  i--;
 }
+console.log(s);
+
+
 
